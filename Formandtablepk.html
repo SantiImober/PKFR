@@ -6,10 +6,59 @@
     <title>Contactame</title>
   </head>
   <body>
-    <header><h1>Escribinos y conatos tu experiencia</h1></header>
+    <header><h1>Escribinos y contanos tu experiencia</h1></header>
     <main>
       <section>
-        <table></table>
+        <h2>SPOTS</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Pais</th>
+              <th>Nombre</th>
+              <th>Capacidad</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aregntina</td>
+              <td>muni</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <td>francia</td>
+              <td>manpower gap</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Japon</td>
+              <td>Rooftop</td>
+              <td>5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Sobre ti</h2>
+        <form>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="genero">Genero</label>
+          <input type="radio" id="Masculino" name="genero" value="Masculino" />
+          <label for="Masculino">Masculino</label>
+          <input type="radio" id="Femenino" name="genero" value="Femenino" />
+          <label for="Femenino">Femenino</label>
+          <label for="niv">Nivel</label>
+          <select name="niv" id="niv">
+            <option value="1">Nivel 1</option>
+            <option value="2">Nivel 2</option>
+            <option value="3">Nivel 3</option>
+          </select>
+          <h3>Registrate</h3>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+          <label for="pass">Contraseña</label>
+          <input type="password" id="pass" name="pass" required />
+        </form>
       </section>
     </main>
   </body>
